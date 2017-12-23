@@ -1,0 +1,213 @@
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			}
+			#game, #bg-1, #bg-2, #bg-3, #bg-4 {
+			  position: relative;
+			  opacity: 0.75;
+			  background-attachment: fixed;
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			}
+			header {
+				color: white;
+				font-size: 500%;
+				text-align: center;
+				padding-top: 3%;
+			}
+			#game {
+				text-align:center;
+				background-color: #f2f3f4;
+				min-height: 100%;
+			}
+
+			#game h1 {
+				color: black;
+				margin-top: -70%;
+				z-index:100;
+			}
+			#game a {
+				text-decoration: none;
+			}
+			.backb-img {
+				position:relative;
+				float:left;
+				margin-left: 3%;
+			}
+
+			#bg-1 {
+				background-image: url("bg-1.jpg");
+ 				min-height: 100%;
+			}
+			#contact {
+				border-top-left-radius: 15px;
+				border-bottom-left-radius: 15px;
+				background-color: white;
+				opacity: 0.85;
+				position: relative;
+				float:right;
+				height:70%;
+				width:10%;	
+				text-align: center;
+			}
+			#about {
+				position: absolute;
+				background-color: white;
+				opacity:0.5;
+				border-radius: 15px;
+				margin-left: 15%;
+				width:70%;
+				height:70%;
+			}
+			#about h2 {
+				margin-left: 3%;
+			}
+			.tooltip .tooltiptext {
+			    visibility: hidden;
+			    background-color: black;
+			    color: #fff;
+			    text-align: center;
+			    padding: 3% 5%;
+			    border-radius: 5px;
+			    position: absolute;
+			    margin-top: 13%;
+			    right: 85%; 
+			}
+			.fa {
+				color:black;
+			}
+			.tooltip .tooltiptext::after {
+			    content: " ";
+			    position: absolute;
+			    top: 50%;
+			    left: 100%;
+			    margin-top: -5px;
+			    border-width: 5px;
+			    border-style: solid;
+			    border-color: transparent transparent transparent black;
+			}
+			.tooltip:hover .tooltiptext {
+			    visibility: visible;
+			}
+			#bg-2 {
+				background-image: url("bg-2.jpg");
+				min-height: 100%;
+			}
+			.xp-card {
+				float: left;
+				margin-top: 1%;
+				margin-left: 2.5%;
+				background-color: white;
+				border-radius: 15px;
+				width:30%;
+				height:70%;
+
+			}
+			.logo {
+				margin-top: 2%;
+				margin-left: 3%;
+				width:30%;
+			}
+			.details {
+				float:right;
+				width:63%;
+				height:27%;
+				line-height: 30%;
+			}
+			.details h2 {
+				margin-top:13%;
+				margin-bottom:15%;
+			}
+			.description {
+				height:42%;
+				margin-top: 6%;
+				padding:0 3%;
+			}		
+			.pic {
+				float:left;
+				width:50%;
+			}
+			#bg-3 {
+				background-image: url(bg-3.jpg);
+				min-height: 100%;
+			}
+			#tabs {
+				width:80%;
+				height:70%;
+				margin-top:0.5%;
+				margin-left:10%;
+			}
+			.page {
+				height:434px;
+				overflow: scroll;
+			}
+			.infobox {
+				position:absolute;
+				  top: 0;
+				  bottom: 0;
+				  left: 0;
+				  right: 0;
+				height:200px;
+				width:200px;
+				opacity: 0;
+				transition:.5s ease;
+				background-color: white;
+			}
+			.item {
+				position: relative;
+				float:left;
+				margin-left: 20px;
+				margin-top: 15px;
+				text-align:center;
+			}
+			.item a {
+				float:left;
+				display:block;
+				text-decoration:none;
+				font-size:15px;
+			}
+			.item a:hover .infobox{
+				opacity:0.87;
+			}
+			.item img {
+				height:200px;
+				width:200px;
+			}
+			.text {
+				color: #666666;
+			  	font-size: 15px;
+			  	position: absolute;
+			  	top: 50%;
+			  	left: 50%;
+			  	transform: translate(-50%, -50%);
+			    -webkit-transform: translate(-50%, -50%);
+			}
+			#bg-4 {
+				background-image: url("bg-4.jpg");
+				min-height: 100%;
+			}
+
+			#sklz {
+				margin-left: 13%;
+				width:15%;
+				height:60%;
+				text-align: right;
+			}
+			#sklz h1 {
+				padding-bottom: 15%;
+			}
+			#level {
+				position:absolute;
+				width:60%;
+				height:65%;
+				margin-left:33%;
+				margin-top: -32%;
+			}
+			#level img {
+				height:15%;
+				margin-right: 3%;
+			}
+			#level h2 {
+				margin-top: 5%;
+			}
