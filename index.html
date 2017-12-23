@@ -1,0 +1,473 @@
+<html>
+	<head>
+		<link href = "https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel ="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+		<script src="https://use.fontawesome.com/f63ded45ab.js"></script>
+		<script>
+		  $( function() {
+		    $( "#tabs" ).tabs();
+		  } );
+		  $( function() {
+		    $( document ).tooltip();
+		  } );
+ 		</script>
+
+		<style>
+			body, html {
+			  height: 100%;
+			  margin: 0;
+			}
+			#game, #bg-1, #bg-2, #bg-3, #bg-4 {
+			  position: relative;
+			  opacity: 0.75;
+			  background-attachment: fixed;
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			}
+			header {
+				color: white;
+				font-size: 500%;
+				text-align: center;
+				padding-top: 3%;
+			}
+			#game {
+				text-align:center;
+				background-color: #f2f3f4;
+				min-height: 100%;
+			}
+
+			#game h1 {
+				color: black;
+				margin-top: -70%;
+				z-index:100;
+			}
+			#game a {
+				text-decoration: none;
+			}
+			.backb-img {
+				position:relative;
+				float:left;
+				margin-left: 3%;
+			}
+
+			#bg-1 {
+				background-image: url("bg-1.jpg");
+ 				min-height: 100%;
+			}
+			#contact {
+				border-top-left-radius: 15px;
+				border-bottom-left-radius: 15px;
+				background-color: white;
+				opacity: 0.85;
+				position: relative;
+				float:right;
+				height:70%;
+				width:10%;	
+				text-align: center;
+			}
+			#about {
+				position: absolute;
+				background-color: white;
+				opacity:0.5;
+				border-radius: 15px;
+				margin-left: 15%;
+				width:70%;
+				height:70%;
+			}
+			#about h2 {
+				margin-left: 3%;
+			}
+			.tooltip .tooltiptext {
+			    visibility: hidden;
+			    background-color: black;
+			    color: #fff;
+			    text-align: center;
+			    padding: 3% 5%;
+			    border-radius: 5px;
+			    position: absolute;
+			    margin-top: 13%;
+			    right: 85%; 
+			}
+			.fa {
+				color:black;
+			}
+			.tooltip .tooltiptext::after {
+			    content: " ";
+			    position: absolute;
+			    top: 50%;
+			    left: 100%;
+			    margin-top: -5px;
+			    border-width: 5px;
+			    border-style: solid;
+			    border-color: transparent transparent transparent black;
+			}
+			.tooltip:hover .tooltiptext {
+			    visibility: visible;
+			}
+			#bg-2 {
+				background-image: url("bg-2.jpg");
+				min-height: 100%;
+			}
+			.xp-card {
+				float: left;
+				margin-top: 1%;
+				margin-left: 2.5%;
+				background-color: white;
+				border-radius: 15px;
+				width:30%;
+				height:70%;
+
+			}
+			.logo {
+				margin-top: 2%;
+				margin-left: 3%;
+				width:30%;
+			}
+			.details {
+				float:right;
+				width:63%;
+				height:27%;
+				line-height: 30%;
+			}
+			.details h2 {
+				margin-top:13%;
+				margin-bottom:15%;
+			}
+			.description {
+				height:42%;
+				margin-top: 6%;
+				padding:0 3%;
+			}		
+			.pic {
+				float:left;
+				width:50%;
+			}
+			#bg-3 {
+				background-image: url(bg-3.jpg);
+				min-height: 100%;
+			}
+			#tabs {
+				width:80%;
+				height:70%;
+				margin-top:0.5%;
+				margin-left:10%;
+			}
+			.page {
+				height:434px;
+				overflow: scroll;
+			}
+			.infobox {
+				position:absolute;
+				  top: 0;
+				  bottom: 0;
+				  left: 0;
+				  right: 0;
+				height:200px;
+				width:200px;
+				opacity: 0;
+				transition:.5s ease;
+				background-color: white;
+			}
+			.item {
+				position: relative;
+				float:left;
+				margin-left: 20px;
+				margin-top: 15px;
+				text-align:center;
+			}
+			.item a {
+				float:left;
+				display:block;
+				text-decoration:none;
+				font-size:15px;
+			}
+			.item a:hover .infobox{
+				opacity:0.87;
+			}
+			.item img {
+				height:200px;
+				width:200px;
+			}
+			.text {
+				color: #666666;
+			  	font-size: 15px;
+			  	position: absolute;
+			  	top: 50%;
+			  	left: 50%;
+			  	transform: translate(-50%, -50%);
+			    -webkit-transform: translate(-50%, -50%);
+			}
+			#bg-4 {
+				background-image: url("bg-4.jpg");
+				min-height: 100%;
+			}
+
+			#sklz {
+				margin-left: 13%;
+				width:15%;
+				height:60%;
+				text-align: right;
+			}
+			#sklz h1 {
+				padding-bottom: 15%;
+			}
+			#level {
+				position:absolute;
+				width:60%;
+				height:65%;
+				margin-left:33%;
+				margin-top: -32%;
+			}
+			#level img {
+				height:15%;
+				margin-right: 3%;
+			}
+			#level h2 {
+				margin-top: 5%;
+			}
+		</style>
+		<title>Jenny Xin</title>
+	</head>
+
+	<body>
+		<div id="game">
+			<div class="backb-img">
+				<a href="#bg-1"><img src="backb.png">
+				<h1>About</h1></a>
+			</div>
+			<div class="backb-img">
+				<a href="#bg-2"><img src="backb.png">
+				<h1>Experience</h1></a>
+			</div>
+			<div class="backb-img">
+				<a href="#bg-3"><img src="backb.png">
+				<h1>Projects</h1></a>
+			</div>
+			<div class="backb-img">
+				<a href="#bg-4"><img src="backb.png">
+				<h1>Skills</h1></a>
+			</div>
+			
+		</div>
+		<div id="bg-1">
+			<header>About</header>
+			<div id="about">
+				<h2>Hello</h2>
+			</div>
+			<div id="contact">
+				<h2>Contact</h2>
+				<p class="tooltip"><a href="mailto:jennyxin28@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
+					<span class="tooltiptext">Email</p>
+				<p class="tooltip"><a href="https://www.linkedin.com/in/jennyxin28" target="blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+					<span class="tooltiptext">LinkedIn</p>
+				<p class="tooltip"><a href="https://github.com/jexin" target="blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
+					<span class="tooltiptext">Github</p>
+				<p class="tooltip"><a href="https://www.facebook.com/jenny.xin.28" target="blank"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
+					<span class="tooltiptext">Facebook</p>
+				<p class="tooltip"><a href="JennyX_Resume.pdf" target="blank"><i class="fa fa-file-text-o fa-4x" aria-hidden="true"></i></a>
+					<span class="tooltiptext">Resume</p>
+			</div>
+		</div>
+
+		<div id="bg-2">
+			<header>Experience</header>
+			<div class="xp-card">
+				<img class="logo" src="adroll.png">
+				<div class="details">
+					<h2>Adroll</h2>
+					<p>Information Technology Intern</p>
+					<p>June 2016 - August 2016</p>
+					<p>San Francisco, CA</p>
+				</div>
+				<div class="description">
+					<ul>
+						<li>Designed a quick guide for video calling using Pages.</li><br>
+						<li>Ordered and installed white noise machines to minimize noise level around the office.</li><br>
+						<li>Worked with Slack, Okta, Lifesize, and Zendesk systems.</li><br>
+						<li>Participated in project management, public speaking, and Google Apps trainings hosted by team in the New York and Dublin headquarters.</li>
+					</ul>
+				</div>
+				<a href="adpic.jpg"><img class="pic" src="adpic.jpg"></a>
+				<a href="adpic2.jpg"><img href="adpic2.jpg" class="pic" src="adpic2.jpg"></a>
+			</div>
+			<div class="xp-card">
+				<img class="logo" src="sfusd.jpg">
+				<div class="details">
+					<h2>SFUSD</h2>
+					<p>Environmental Technology Intern</p>
+					<p>June 2015 - July 2015</p>
+					<p>San Francisco, CA</p>
+				</div>
+				<div class="description">
+					<ul>
+						<li>Collaborated with peers to engineer and present functioning models of the Hetch Hetchy water system and wastewater treatment process.</li><br>
+						<li>Engaged with industry workers at local PG&amp;E Energy Center.</li><br>
+						<li>Researched and tested water quality and consumption in the United States.</li><br>
+						<li>Toured San Francisco’s Southeast Treatment Plant facility which treats nearly 80% of the City’s flow.</li><br>
+					</ul>
+				</div>
+			</div>
+			<div class="xp-card">
+				<img class="logo" src="ymca.jpg">
+				<div class="details">
+					<h2>YMCA of San Francisco</h2>
+					<p>Counselor in Training</p>
+					<p>June 2014 - August 2014</p>
+					<p>San Francisco, CA</p>
+				</div>
+				<div class="description">
+					<ul>
+						<li>Supervised a group of 1st through 3rd graders at summer camp.</li><br>
+						<li>Created and lead daily and games activities.</li><br>
+						<li>Conducted field trips with other counselors.</li><br>
+						<li>Served as a role model for youth by actively participating in activities and encouraging a safe and playful environment.</li><br>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="bg-3">
+			<header>Projects</header>
+			<div id="tabs">
+			  <ul>
+			    <li><a href="#tabs-1">Java</a></li>
+			    <li><a href="#tabs-2">Javascript</a></li>
+			  </ul>
+			  <div id="tabs-1" class="page">
+			    <div class="item">
+					<a href="/Minesweeper"><img src="minesweeper.png">
+					<div class="infobox">
+						<div class="text">A Minesweeper game. Press Ctrl/command + any key to flag.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/AsteroidsGame"><img src="asteroids.png">
+					<div class="infobox">
+						<div class="text">An Asteroids game.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/OriginalDesign"><img src="design.png"><br>
+					<div class="infobox">
+						<div class="text">An interactive design.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/FractalTree"><img src="tree.png">
+					<div class="infobox">
+						<div class="text">A simple tree using recursion.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/OriginalFractal"><img src="fractal.png">
+					<div class="infobox">
+						<div class="text">A design based on recursion.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/SierpinskiTriangle"><img src="triangle.png">
+					<div class="infobox">
+						<div class="text">The Sierpinski Triangle using recursion.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/Dice"><img src="dice.png">
+					<div class="infobox">
+						<div class="text">Click to roll the die and calculate the total.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/Starfield"><img src="starfield.png">
+					<div class="infobox">
+						<div class="text">A galaxy using inheritance and polymorphism.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/Lightning"><img src="lightning.png">
+					<div class="infobox">
+						<div class="text">Click to generate a new flash of lightning.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/Chemotaxis"><img src="chemotaxis.png">
+					<div class="infobox">
+						<div class="text">A growing bacteria colony using arrays.</div>
+					</div></a>
+				</div>
+			  </div>
+			  <div id="tabs-2" class="page">
+			    <div class="item">
+					<a href="/ReactionGame"><img src="reaction.png">
+					<div class="infobox">
+						<div class="text">A reaction game.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="/CodePlayer"><img src="codeplayer.png">
+					<div class="infobox">
+						<div class="text">A code tester for HTML, CSS, and Javascript.</div>
+					</div></a>
+				</div>
+				<div class="item">
+					<a href="https://www.khanacademy.org/profile/jexin/projects"><img src="khan.png">
+					<div class="infobox">
+						<div class="text">Link to all my Khan Academy projects.</div>
+					</div></a>
+				</div>
+			  </div>
+			</div>
+		</div>
+
+		<div id="bg-4">
+			<header>Skills</header>
+			<div id="sklz">
+				<h1>HTML</h1>
+				<h1>CSS</h1>
+				<h1>Java</h1>
+				<h1>Javascript</h1>
+				<h1>Git</h1>
+			</div>
+			<div id="level">
+				<p>
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+				</p>
+				<p>
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+				</p>
+				<p>
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+				</p>
+				<p>
+					<img src="bball.png">
+					<img src="bball.png">
+					<img src="bball.png">
+				</p>
+				<p>
+					<img src="bball.png">
+					<img src="bball.png">
+				</p>
+				<h2>Google Apps, macOS, Windows</h2>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- 
+https://wallpaperscraft.com/image/basketball_shield_ground_74045_1920x1080.jpg
+https://cdn.pixabay.com/photo/2017/09/29/13/42/lamp-2799130_1280.jpg
+http://14textures.com/wp-content/uploads/2015/06/GreyBrick-3.jpg
+http://www.flashing-heiloo.nl/new-wp/wp-content/uploads/2014/09/bucket2.jpg
+https://openclipart.org/image/300px/svg_to_png/31453/basket.png&disposition=attachment
+-->
