@@ -11,6 +11,14 @@
 		  $( function() {
 		    $( document ).tooltip();
 		  } );
+		  $(document).ready(function(){
+			$("i").tooltip({
+			    position:{
+			        at:"left top-8",
+			        my:"right-10",
+			    }
+			});
+		  } );
  		</script>
  		<link rel="stylesheet" type="text/css" href="index.css">
  		<link rel="icon" href="icon.ico">
@@ -43,16 +51,11 @@
 			</div>
 			<div id="contact">
 				<h2>Contact</h2>
-				<p class="tooltip"><a href="mailto:jennyxin28@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a>
-					<span class="tooltiptext">Email</p>
-				<p class="tooltip"><a href="https://www.linkedin.com/in/jennyxin28" target="blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-					<span class="tooltiptext">LinkedIn</p>
-				<p class="tooltip"><a href="https://github.com/jexin" target="blank"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a>
-					<span class="tooltiptext">Github</p>
-				<p class="tooltip"><a href="https://www.facebook.com/jenny.xin.28" target="blank"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a>
-					<span class="tooltiptext">Facebook</p>
-				<p class="tooltip"><a href="JennyX_Resume.pdf" target="blank"><i class="fa fa-file-text-o fa-4x" aria-hidden="true"></i></a>
-					<span class="tooltiptext">Resume</p>
+				<p><a href="mailto:jennyxin28@gmail.com" title="Email"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a></p>
+				<p><a href="https://www.linkedin.com/in/jennyxin28" target="blank" title="LinkedIn"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></p>
+				<p><a href="https://github.com/jexin" target="blank" title="Github"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></p>
+				<p><a href="https://www.facebook.com/jenny.xin.28" target="blank" title="Facebook"><i class="fa fa-facebook-square fa-4x" aria-hidden="true"></i></a></p>
+				<p><a href="JennyX_Resume.pdf" target="blank" title="Resume"><i class="fa fa-file-text-o fa-4x" aria-hidden="true"></i></a></p>
 			</div>
 		</div>
 
@@ -207,44 +210,42 @@
 
 		<div id="bg-4">
 			<header>Skills</header>
-			<div id="sklz">
-				<h1>HTML</h1>
-				<h1>CSS</h1>
-				<h1>Java</h1>
-				<h1>Javascript</h1>
-				<h1>Git</h1>
-			</div>
-			<div id="level">
-				<p>
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-				</p>
-				<p>
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-				</p>
-				<p>
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-				</p>
-				<p>
-					<img src="bball.png">
-					<img src="bball.png">
-					<img src="bball.png">
-				</p>
-				<p>
-					<img src="bball.png">
-					<img src="bball.png">
-				</p>
-				<h2>Google Apps, macOS, Windows</h2>
-			</div>
+			<table id="chart">
+				<tr>
+					<th><h1>HTML</h1></th>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+				</tr>
+				<tr>
+					<th><h1>CSS</h1></th>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+				</tr>
+				<tr>
+					<th><h1>Java</h1></th>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+				</tr>
+				<tr>
+					<th><h1>Javascript</h1></th>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+				</tr>
+				<tr>
+					<th><h1>Git</h1></th>
+					<td><img src="bball.png"></td>
+					<td><img src="bball.png"></td>
+				</tr>
+			</table>
+			<h2>Google Apps, macOS, Windows</h2>
 		</div>
 	</body>
 </html>
