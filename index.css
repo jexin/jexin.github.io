@@ -38,6 +38,16 @@
 			#game a {
 				text-decoration: none;
 			}
+			#nono {
+				display: inline-block;
+				margin:20% auto;
+				visibility: hidden;
+			}
+			@media screen and (max-width: 1050px) {
+				#nono {
+					visibility:visible;
+				}
+			}
 			#bg-1 {
 				background-image: url("bg-1.jpg");
  				min-height: 100%;
