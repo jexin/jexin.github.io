@@ -10,6 +10,9 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.col-3 {
+	padding:0;
+}
 #game {
 	background-color:#f2f3f4;
 }
