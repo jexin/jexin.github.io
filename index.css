@@ -3,14 +3,12 @@ body, html {
 	margin: 0;
 	font-family: 'Crimson Text', serif;
 	color:white;
-}
-#bg-1, #bg-2, #bg-3, #bg-4 {
+	background-image: url("bg.jpeg");
 	position: relative;
 	background-attachment: fixed;
 	background-position: center;			
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding:15px 0;
 }
 #game {
 	background-color:#f2f3f4;
@@ -18,10 +16,8 @@ body, html {
 #game img {
 	width:23vw;
 }
-#bg-1 {
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("bg-1.jpg");
-}
 h1{
+	padding-top: 15px;
 	text-align: center;
 }
 .jumbotron {
@@ -35,13 +31,10 @@ h1{
 }
 .fa {
 	font-size:4.5em;
-	color:black;
+	color:white;
 }
 #contact {
 	padding-left: 10px;
-}
-#bg-2 {
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("bg-2.jpg");
 }
 #bg-2 img {
 	padding-top: 3px;
@@ -62,9 +55,6 @@ h1{
 	color:black;
 	padding-top: 0;
 	padding-bottom: 10px;
-}
-#bg-3 {
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("bg-3.jpg");
 }
 .infobox {
 	position:absolute;
@@ -110,9 +100,6 @@ h1{
   	left: 50%;
   	transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-}
-#bg-4 {
-	background-image: linear-gradient(to bottom, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0.3) 100%), url("bg-4.jpg");
 }
 #bg-4 h2 {
 	font-size:2.2vw;
