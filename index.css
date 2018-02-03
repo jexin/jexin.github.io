@@ -3,12 +3,17 @@ body, html {
 	margin: 0;
 	font-family: 'Crimson Text', serif;
 	color:white;
-	background-image: url("bg.jpeg");
+}
+#bg-1, #bg-2, #bg-3, #bg-4 {
 	position: relative;
 	background-attachment: fixed;
 	background-position: center;			
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom:25px;
+}
+#bg-1 {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url("bg-1.jpeg");
 }
 .col-3 {
 	padding:0;
@@ -38,6 +43,9 @@ h1{
 }
 #contact {
 	padding-left: 10px;
+}
+#bg-2 {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url("bg-2.jpeg");
 }
 #bg-2 img {
 	padding-top: 3px;
@@ -71,6 +79,9 @@ h1{
 	transition:.5s ease;
 	background-color: white;
 }
+#bg-3 {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("bg-3.jpeg");
+}
 .nav-link {
 	color:white;
 }
@@ -103,6 +114,9 @@ h1{
   	left: 50%;
   	transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+}
+#bg-4 {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("bg-4.jpeg");
 }
 #bg-4 h2 {
 	font-size:2.2vw;
