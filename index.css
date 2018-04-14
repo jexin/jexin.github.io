@@ -41,7 +41,7 @@ h1{
 	color:white;
 }
 #contact {
-	padding-left: 10px;
+	text-align:center;
 }
 #bg-2 {
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url("bg-2.jpeg");
