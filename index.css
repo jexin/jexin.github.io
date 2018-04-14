@@ -66,18 +66,6 @@ h1{
 	padding-top: 0;
 	padding-bottom: 10px;
 }
-.infobox {
-	position:absolute;
-	  top: 0;
-	  bottom: 0;
-	  left: 0;
-	  right: 0;
-	height:200px;
-	width:200px;
-	opacity: 0;
-	transition:.5s ease;
-	background-color: white;
-}
 #bg-3 {
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("bg-3.jpeg");
 }
@@ -104,6 +92,18 @@ h1{
 .item img {			
 	height:200px;
 	width:200px;
+}
+.infobox {
+	position:absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	height:200px;
+	width:200px;
+	opacity: 0;
+	transition:.5s ease;
+	background-color: white;
 }
 .text {
 	color: #666666;
