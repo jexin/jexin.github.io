@@ -73,6 +73,9 @@ h1{
 .nav-link {
 	color:white;
 }
+.nav-link a:hover {
+	color:black;
+}
 .tab-pane {
 	height:430px;
 	width:1110px;
