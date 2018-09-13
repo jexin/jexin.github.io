@@ -76,8 +76,25 @@ h1{
 #contact {
 	text-align: center;
 }
+#contact i:hover {
+	color:#303030;
+}
 #bg-2 {
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url("bg-2.jpeg");
+}
+.xp-content {
+	overflow-x:scroll;
+}
+.xp {
+	height:418px;
+	width:1480px;
+}
+.card {
+	position: relative;
+	float:left;
+	margin-right: 10px;
+	width:355px;
+	height:418px;
 }
 #bg-2 img {
 	padding-top: 3px;
@@ -88,6 +105,7 @@ h1{
 	color:black;
 	font-size: 23px;
 	line-height: 14px;
+	padding:0;
 }
 #details {
 	color:black;
@@ -108,22 +126,25 @@ h1{
 .nav-link a:hover {
 	color:black;
 }
+.tab-content{
+  	overflow-x:scroll;
+} 
 .tab-pane {
 	height:430px;
 	width:1110px;
 }
-.tab-content{
-  	overflow-x:scroll;
-} 
-.item {
+.featured-item, .item {
 	position: relative;
 	float:left;
 	margin-left: 20px;
 	margin-top: 15px;
 	text-align:center;
 }
-.item a:hover .infobox{
+.featured-item a:hover .infobox, .item a:hover .infobox{
 	opacity:0.87;
+}
+.featured-item img {
+	height:415px;
 }
 .item img {			
 	height:200px;
@@ -140,6 +161,10 @@ h1{
 	opacity: 0;
 	transition:.5s ease;
 	background-color: white;
+}
+.featured-item .infobox {
+	height:415px;
+	width:auto;
 }
 .text {
 	color: #666666;
