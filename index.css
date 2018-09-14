@@ -185,14 +185,11 @@ h1{
 	margin:0 auto;
 }
 #chart th {
-	padding-right: 7%;
+	padding-right: 3%;
 }
 #chart td {
 	padding: 1%;
 }
 #chart img {
 	width:6vw;
-}
-#bg-4 h2 {
-	margin-left:33%;
 }
