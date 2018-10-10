@@ -48,7 +48,7 @@ function enterKey() {
 	     }, 1350);
 	}
 };
-function shootUp() {  
+function shootUp() {
   ball.style.zIndex = 1;
   for(var i = 0;i < hoop.length;i++){
      hoop[i].style.zIndex = 0;
@@ -61,13 +61,13 @@ function shootUp() {
       clearInterval(id);
       shootDown();
     } else {
-      pos-=8;    
-      ball.style.top = pos + 'px'; 
+      pos-=8;
+      ball.style.top = pos + 'px';
       ratio-=0.3;
 	  ball.style.width = ratio + '%';
 	  ball.style.height = 'auto';
     }
-  } 
+  }
 }
 function shootDown() {
   ball.style.zIndex = 0;
@@ -83,10 +83,10 @@ function shootDown() {
       ball.style.width = '60%';
 	  ball.style.height = 'auto';
     } else {
-      pos+=7;    
-      ball.style.top = pos + 'px'; 
+      pos+=7;
+      ball.style.top = pos + 'px';
     }
-  } 	
+  }
 }
 function about() {
 	document.getElementById("about").click();
@@ -117,7 +117,6 @@ function moveSelection(event) {
 		}
 	}
 };
-
-function docReady() { 
+function docReady() {
   window.addEventListener("keydown", moveSelection);
 }
