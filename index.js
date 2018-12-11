@@ -26,17 +26,17 @@ function rightKey() {
 	}
 }
 function enterKey() {
-	if (ball.style.left === "0px") {
+	if (parseInt(ball.style.left) === 0) {
 		shootUp();
 		setTimeout(function() {
 			about();
 	     }, 1350);
-	} else if (ball.style.left === unit.offsetWidth + 'px') {
+	} else if (parseInt(ball.style.left) === unit.offsetWidth) {
 		shootUp();
 		setTimeout(function() {
 			experience();
 	     }, 1350);
-	} else if (ball.style.left === unit.offsetWidth*2 + 'px') {
+	} else if (parseInt(ball.style.left) === unit.offsetWidth*2) {
 		shootUp();
 		setTimeout(function() {
 			projects();
