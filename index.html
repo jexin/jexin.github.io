@@ -2,336 +2,203 @@
 <html lang="en">
   <head>
   	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121620558-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-
-	  gtag('config', 'UA-121620558-1');
-	</script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-    <link rel="icon" href="images/icon.ico">
-    <title>Jenny Xin</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121620558-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-121620558-1');
+		</script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+		<link rel="icon" href="images/icon.ico">
+		<title>Jenny Xin</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body onload="docReady()">
   	<div id="game">
   		<div class="container-fluid">
 	  		<div id="bboard" class="row">
-				<div class="col-3">
-					<a id="about" href="#bg-1"><img src="images/backb-1.png">
-						<div class="hoop"><img src="images/hoop.png"></div>
-					</a>
-				</div>
-				<div class="col-3">
-					<a id="experience" href="#bg-2"><img src="images/backb-2.png">
-						<div class="hoop"><img src="images/hoop.png"></div>
-					</a>
-				</div>
-				<div class="col-3">
-					<a id="projects" href="#bg-3"><img src="images/backb-3.png">
-						<div class="hoop"><img src="images/hoop.png"></div>
-					</a>
-				</div>
-				<div class="col-3">
-					<a id="skills" href="#bg-4" ><img src="images/backb-4.png">
-						<div class="hoop"><img src="images/hoop.png"></div>
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div id="instr">
-					<h1>Use <i class="far fa-caret-square-left"></i> and <i class="far fa-caret-square-right"></i> to move. Press enter to shoot.</h1>
-				</div>
-			</div>
-			<div id="control" class="row">
-				<div class="col-3">
-					<img id="ball" src="images/ball.png" style="position:relative;left:0px;">
-				</div>
-				<div class="col-3"></div>
-				<div class="col-3"></div>
-				<div class="col-3"></div>
-			</div>
-		</div>
-	</div>
-	<div id="bg-1">
-		<div class="container">
-			<h1>About</h1>
-			<div class="jumbotron">
-				<h5>Hello. My name is Jenny. Stay tuned for more...</h5>
-			</div>
-			<div id="contact">
-				<a href="mailto:jennyxin28@gmail.com" title="Email"><i class="fas fa-envelope-square"></i></a>
-				<a href="https://www.linkedin.com/in/jennyxin28" target="blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-				<a href="https://github.com/jexin" target="blank" title="Github"><i class="fab fa-github-square"></i></a>
-			</div>
-		</div>
-	</div>
-	<div id="bg-2">
-		<div class="container">
-			<h1>Experience</h1>
-			<div class="xp-content">
-				<div class="xp">
-					<div class="card">
-					  	<div class="row">
-						    <img class="card-img-top col-4" src="images/google.jpg" alt="Card image cap">
-						    <h5 class="col-8"><br><strong>Google</strong><br><br><span id="details">Computer Science Summer Institute<br>July 2018 - August 2018<br>Sunnyvale, CA</span></h5>
-						</div>
-					    <div class="card-body">
-					      <p class="card-text">
-					      	<ul>
-								<li>Participated in an intensive programming institute learning web app development from Google engineers</li>
-								<li>Through the creation of various small projects used HTML, CSS, Javascript, Python, and Google App Engine and created ROFL, a roommate finder app</li>
-							</ul></p>
-					    </div>
+					<div class="col-3">
+						<a id="about" href="#bg-1"><img src="images/backb-1.png">
+							<div class="hoop"><img src="images/hoop.png"></div>
+						</a>
 					</div>
-					<div class="card">
-					  	<div class="row">
-						    <img class="card-img-top col-4" src="images/roll.jpg" alt="Card image cap">
-						    <h5 class="col-8"><br><strong>Adroll</strong><br><br><span id="details">Information Technology Intern<br>June 2016 - August 2016<br>San Francisco, CA</span></h5>
-						</div>
-					    <div class="card-body">
-					      <p class="card-text">
-					      	<ul>
-								<li>Designed a quick guide for video calling using Pages</li>
-								<li>Ordered and installed white noise machines to minimize noise level around the office</li>
-								<li>Worked with Slack, Okta, Lifesize, and Zendesk systems</li>
-								<li>Participated in project management, public speaking, and Google Apps trainings hosted by team in the New York and Dublin headquarters</li>
-							</ul></p>
-					    </div>
+					<div class="col-3">
+						<a id="experience" href="#bg-2"><img src="images/backb-2.png">
+							<div class="hoop"><img src="images/hoop.png"></div>
+						</a>
 					</div>
-				    <div class="card">
-					  	<div class="row">
-						    <img class="card-img-top col-4" src="images/sfusd.jpg" alt="Card image cap">
-						    <h5 class="col-8"><br><strong>SFUSD</strong><br><br><span id="details">Environmental Technology Intern<br>June 2015 - July 2015<br>San Francisco, CA</span></h5>
-						</div>
-						<div class="card-body">
-					      <p class="card-text">
-					      	<ul>
-								<li>Collaborated with peers to engineer and present functioning models of the Hetch Hetchy water system and wastewater treatment process</li>
-								<li>Engaged with industry workers at local PG&amp;E Energy Center</li>
-								<li>Researched and tested water quality and consumption in the United States</li>
-								<li>Toured San Francisco’s Southeast Treatment Plant facility which treats nearly 80% of the City’s flow</li>
-							</ul></p>
-					    </div>
-				    </div>
-				    <div class="card">
-					  	<div class="row">
-						    <img class="card-img-top col-4" src="images/ymca.jpg" alt="Card image cap">
-						    <h5 class="col-8"><br><strong>YMCA of San Francisco</strong><br><br><span id="details">Counselor in Training<br>June 2014 - August 2014<br>San Francisco, CA</span></h5>
-						</div>
-					    <div class="card-body">
-					      <p class="card-text">
-					      	<ul>
-								<li>Supervised a group of 1st through 3rd graders at summer camp</li>
-								<li>Created and lead daily and games activities</li>
-								<li>Conducted field trips with other counselors</li>
-								<li>Served as a role model for youth by actively participating in activities and encouraging a safe and playful environment</li>
-							</ul></p>
-					    </div>
-				    </div>
+					<div class="col-3">
+						<a id="projects" href="#bg-3"><img src="images/backb-3.png">
+							<div class="hoop"><img src="images/hoop.png"></div>
+						</a>
+					</div>
+					<div class="col-3">
+						<a id="skills" href="#bg-4" ><img src="images/backb-4.png">
+							<div class="hoop"><img src="images/hoop.png"></div>
+						</a>
+					</div>
 				</div>
-
+				<div class="row">
+					<div id="instr">
+						<h1>Use <i class="far fa-caret-square-left"></i> and <i class="far fa-caret-square-right"></i> to move. Press enter to shoot.</h1>
+					</div>
+				</div>
+				<div id="control" class="row">
+					<div class="col-3">
+						<img id="ball" src="images/ball.png" style="position:relative;left:0px;">
+					</div>
+					<div class="col-3"></div>
+					<div class="col-3"></div>
+					<div class="col-3"></div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="bg-3">
-		<div class="container">
-			<h1>Projects</h1>
-			<ul class="nav nav-tabs" id="myTab" role="tablist">
-			  <li class="nav-item">
-			    <a class="nav-link active" id="featured-tab" data-toggle="tab" href="#featured" role="tab" aria-controls="featured" aria-selected="true">Featured</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" id="java-tab" data-toggle="tab" href="#java" role="tab" aria-controls="home" aria-selected="false">Java</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" id="javascript-tab" data-toggle="tab" href="#javascript" role="tab" aria-controls="javascript" aria-selected="false">Javascript</a>
-			  </li>
-			  <li class="nav-item">
-			    <a class="nav-link" id="lua-tab" data-toggle="tab" href="#lua" role="tab" aria-controls="lua" aria-selected="false">Lua</a>
-			  </li>
-			</ul>
-
-			<div class="tab-content" id="myTabContent">
-			  <div class="tab-pane fade show active" id="featured" role="tabpanel" aria-labelledby="featured-tab">
-			  	<div class="featured-item">
-					<a href="https://rofl-cssi.appspot.com"><img src="images/rofl.png">
-					<div class="infobox">
-						<div class="text">An application for college students to find roomates. Built using Javascript, Python, and Google App Engine.</div>
-					</div></a>
+		<div id="bg-1">
+			<div class="container">
+				<h1>About</h1>
+				<div class="jumbotron">
+					<h5>Hey there, I'm Jenny from San Francisco, CA.
+						I currently study <b>mathematics and computer science</b> at the University of California, San Diego.
+						I have experience working on the front end, as well as the back end specifically in <b>Java</b> and <b>Python</b>.
+						I'm currently obssessed with Bay Area sports, good food, and Elon Musk.
+					</h5>
 				</div>
-			  </div>
-			  <div class="tab-pane fade" id="java" role="tabpanel" aria-labelledby="java-tab">
-			  	<div class="item">
-					<a href="/Minesweeper"><img src="images/minesweeper.png">
-					<div class="infobox">
-						<div class="text">A Minesweeper game. Press Ctrl/command + any key to flag.</div>
-					</div></a>
+				<div id="contact">
+					<a href="mailto:jennyxin28@gmail.com" title="Email"><i class="fas fa-envelope-square"></i></a>
+					<a href="https://www.linkedin.com/in/jennyxin28" target="blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/jexin" target="blank" title="Github"><i class="fab fa-github-square"></i></a>
 				</div>
-				<div class="item">
-					<a href="/AsteroidsGame"><img src="images/asteroids.png">
-					<div class="infobox">
-						<div class="text">An Asteroids game.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/OriginalDesign"><img src="images/design.png"><br>
-					<div class="infobox">
-						<div class="text">An interactive design.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/FractalTree"><img src="images/tree.png">
-					<div class="infobox">
-						<div class="text">A simple tree using recursion.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/OriginalFractal"><img src="images/fractal.png">
-					<div class="infobox">
-						<div class="text">A design based on recursion.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/SierpinskiTriangle"><img src="images/triangle.png">
-					<div class="infobox">
-						<div class="text">The Sierpinski Triangle using recursion.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/Dice"><img src="images/dice.png">
-					<div class="infobox">
-						<div class="text">Click to roll the die and calculate the total.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/Starfield"><img src="images/starfield.png">
-					<div class="infobox">
-						<div class="text">A galaxy using inheritance and polymorphism.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/Lightning"><img src="images/lightning.png">
-					<div class="infobox">
-						<div class="text">Click to generate a new flash of lightning.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/Chemotaxis"><img src="images/chemotaxis.png">
-					<div class="infobox">
-						<div class="text">A growing bacteria colony using arrays.</div>
-					</div></a>
-				</div>
-			  </div>
-			  <div class="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="javascript-tab">
-			  	<div class="item">
-					<a href="/TodoList"><img src="images/todo.png">
-					<div class="infobox">
-						<div class="text">A todo list app.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/ColorGame"><img src="images/color.png">
-					<div class="infobox">
-						<div class="text">A color game.</div>
-					</div></a>
-				</div>
-			  	<div class="item">
-					<a href="/ScoreKeeper"><img src="images/score.png">
-					<div class="infobox">
-						<div class="text">A scorekeeper app.</div>
-					</div></a>
-				</div>
-			  	<div class="item">
-					<a href="/ReactionGame"><img src="images/reaction.png">
-					<div class="infobox">
-						<div class="text">A reaction game.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/CodePlayer"><img src="images/codeplayer.png">
-					<div class="infobox">
-						<div class="text">A code tester for HTML, CSS, and Javascript.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/PatatapClone"><img src="images/patatap.png">
-					<div class="infobox">
-						<div class="text">A simple Patatap clone.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="https://www.khanacademy.org/profile/jexin/projects"><img src="images/khan.png">
-					<div class="infobox">
-						<div class="text">Link to all my Khan Academy projects.</div>
-					</div></a>
-				</div>
-			  </div>
-			  <div class="tab-pane fade" id="lua" role="tabpanel" aria-labelledby="lua-tab">
-			  	<div class="item">
-					<a href="/PhysicsApp"><img src="images/physics.png">
-					<div class="infobox">
-						<div class="text">A physics game.</div>
-					</div></a>
-				</div>
-				<div class="item">
-					<a href="/MagicBall"><img src="images/magic.png">
-					<div class="infobox">
-						<div class="text">A magic 8 ball app.</div>
-					</div></a>
-				</div>
-			  </div>
 			</div>
 		</div>
-	</div>
-	<div id="bg-4">
-		<div class="container">
-			<h1>Skills</h1>
-			<table id="chart">
-				<tr>
-					<th><h2>HTML</h2></th>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-				</tr>
-				<tr>
-					<th><h2>CSS</h2></th>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-				</tr>
-				<tr>
-					<th><h2>Java</h2></th>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-				</tr>
-				<tr>
-					<th><h2>Javascript</h2></th>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-				</tr>
-				<tr>
-					<th><h2>Python</h2></th>
-					<td><img src="images/bball.png"></td>
-					<td><img src="images/bball.png"></td>
-				</tr>
-			</table>
+		<div id="bg-2">
+			<div class="container">
+				<h1>Experience</h1>
+				<div class="xp-content">
+					<div class="xp">
+						<div class="card">
+							<div class="row">
+								<img class="card-img-top col-4" src="images/google.jpg" alt="Card image cap">
+								<h5 class="col-8"><br><strong>Google</strong><br><br><span id="details">Computer Science Summer Institute<br>July 2018 - August 2018<br>Sunnyvale, CA</span></h5>
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									<ul>
+										<li>Participated in an intensive programming institute learning web app development from Google engineers</li>
+										<li>Through the creation of various small projects used <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, <b>Python</b>, and <b>Google App Engine</b> and created <b>ROFL</b>, a roommate finder app</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="row">
+								<img class="card-img-top col-4" src="images/roll.jpg" alt="Card image cap">
+								<h5 class="col-8"><br><strong>Adroll</strong><br><br><span id="details">Information Technology Intern<br>June 2016 - August 2016<br>San Francisco, CA</span></h5>
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									<ul>
+										<li>Participated in project management, public speaking, and Google Apps trainings hosted by team in the New York and Dublin headquarters</li>
+										<li>Designed a quick guide for video calling using Pages</li>
+										<li>Worked with Slack, Okta, Lifesize, and Zendesk systems</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="row">
+								<img class="card-img-top col-4" src="images/sfusd.jpg" alt="Card image cap">
+								<h5 class="col-8"><br><strong>SFUSD</strong><br><br><span id="details">Environmental Technology Intern<br>June 2015 - July 2015<br>San Francisco, CA</span></h5>
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									<ul>
+										<li>Collaborated with peers to engineer and present functioning models of the Hetch Hetchy water system and wastewater treatment process</li>
+										<li>Researched and tested water quality and consumption in the United States</li>
+										<li>Toured San Francisco’s Southeast Treatment Plant facility which treats nearly 80% of the City’s flow</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+						<div class="card">
+							<div class="row">
+								<img class="card-img-top col-4" src="images/ymca.jpg" alt="Card image cap">
+								<h5 class="col-8"><br><strong>YMCA of San Francisco</strong><br><br><span id="details">Counselor in Training<br>June 2014 - August 2014<br>San Francisco, CA</span></h5>
+							</div>
+							<div class="card-body">
+								<p class="card-text">
+									<ul>
+										<li>Supervised a group of 1st through 3rd graders at summer camp</li>
+										<li>Lead daily and games activities</li>
+										<li>Served as a role model for youth by actively participating in activities and encouraging a safe and playful environment</li>
+									</ul>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-
-	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+		<div id="bg-3">
+			<div class="container">
+				<h1>Projects</h1>
+				<div class="pro-content">
+					<div class="pro">
+						<div class="item">
+							<a href="https://rofl-cssi.appspot.com"><img src="images/rofl.png">
+								<div class="infobox">
+									<div class="text">An application for college students to find roomates. Built using <b>Javascript</b>, <b>Python</b>, and <b>Google App Engine</b>.</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="bg-4">
+			<div class="container">
+				<h1>Skills</h1>
+				<table id="chart">
+					<tr>
+						<th><h2>HTML/CSS</h2></th>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+					</tr>
+					<tr>
+						<th><h2>Java</h2></th>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+					</tr>
+					<tr>
+						<th><h2>Javascript</h2></th>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+					</tr>
+					<tr>
+						<th><h2>Python</h2></th>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+					</tr>
+					<tr>
+						<th><h2>C</h2></th>
+						<td><img src="images/bball.png"></td>
+						<td><img src="images/bball.png"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
