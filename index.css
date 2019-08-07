@@ -131,19 +131,29 @@ h1{
 	overflow-x:scroll;
 }
 .pro {
-	height:418px;
-	width:800px;
-	margin: 0 auto;
+	height:350px;
+	width:1557px;
 }
 .item {
 	position: relative;
 	float:left;
+	margin-right: 25px;
+	width:660px;
+	height: 350px;
+	text-align: center;
 }
 .item a:hover .infobox {
-	opacity:0.87;
+	opacity:0.95;
 }
 .item img {
-	height:415px;
+	width:660px;
+	height: 350px;
+}
+#app {
+	width: 162px;
+}
+#app img {
+	width: 162px;
 }
 .infobox {
 	position:absolute;
@@ -153,7 +163,7 @@ h1{
 	  right: 0;
 	height:100%;
 	opacity: 0;
-	transition:.5s ease;
+	transition:.3s ease;
 	background-color: white;
 }
 .text {
