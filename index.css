@@ -64,13 +64,15 @@ h1{
 	padding-top: 15px;
 	text-align: center;
 }
-.jumbotron {
-	color:black;
-	padding-top: 20px;
-	border-radius: 10px;
+.bio {
+    color: black;
+    background-color: white;
+	padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
 }
-.jumbotron h5 {
-	line-height: 1.4;
+.bio h5 {
+    line-height: 1.5;
 }
 #bg-1 .col {
 	padding-right: 0 3px;
@@ -81,7 +83,8 @@ h1{
 	margin:0 5%;
 }
 #contact {
-	text-align: center;
+    text-align: center;
+    margin-top: 2%;
 }
 #contact i:hover {
 	color:#a0a0a0;
