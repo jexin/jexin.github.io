@@ -60,7 +60,7 @@ body, html {
 #bg-1 {
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url("images/bg-1.jpeg");
 }
-h1{
+h1 {
 	padding-top: 15px;
 	text-align: center;
 }
@@ -74,17 +74,14 @@ h1{
 .bio h5 {
     line-height: 1.5;
 }
-#bg-1 .col {
-	padding-right: 0 3px;
-}
 #contact i {
 	font-size:4.5em;
 	color:white;
-	margin:0 5%;
+	margin:0 0.25em;
 }
 #contact {
     text-align: center;
-    margin-top: 2%;
+    margin-top: 1em;
 }
 #contact i:hover {
 	color:#a0a0a0;
