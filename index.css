@@ -1,9 +1,12 @@
 body, html {
-    cursor: url(images/cursor.png), auto;
-	height: 100%;
-	margin: 0;
-	font-family: 'Crimson Text', serif;
-	color:white;
+  cursor: url("cursors/default.png"), auto;
+  height: 100%;
+  margin: 0;
+  font-family: 'Crimson Text', serif;
+  color:white;
+}
+body a :hover, html a :hover{
+  cursor: url("cursors/link.png"), auto;
 }
 #bg-1, #bg-2, #bg-3, #bg-4 {
 	position: relative;
