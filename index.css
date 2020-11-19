@@ -4,6 +4,7 @@ body, html {
   margin: 0;
   font-family: 'Crimson Text', serif;
   color:white;
+  background-color:#fffaf5;
 }
 body a :hover, html a :hover{
   cursor: url("cursors/link.png"), auto;
@@ -20,7 +21,6 @@ body a :hover, html a :hover{
 	padding:0;
 }
 #game {
-	background-color:#f2f3f4;
 	height: 100%;
 }
 #instr {
@@ -98,7 +98,7 @@ h1 {
 }
 .xp {
 	height:418px;
-	width:2555px; /* +365 */
+	width:2920px; /* +365 */
 }
 .card {
 	position: relative;
