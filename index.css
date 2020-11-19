@@ -15,7 +15,11 @@ body a :hover, html a :hover{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom:25px;
+	padding-bottom:50px;
+}
+#bg-1 h1, #bg-2 h1, #bg-3 h1, #bg-4 h1 {
+	padding: 25px 0 15px 0;
+	text-align: center;
 }
 .col-3 {
 	padding:0;
@@ -62,16 +66,12 @@ body a :hover, html a :hover{
 	}
 }
 #bg-1 {
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%), url("images/bg-1.jpeg");
-}
-h1 {
-	padding-top: 15px;
-	text-align: center;
+	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-1.jpeg");
 }
 .bio {
     color: black;
     background-color: white;
-	padding: 2rem;
+	  padding: 2rem;
     border-radius: 10px;
     text-align: center;
 }
@@ -85,13 +85,13 @@ h1 {
 }
 #contact {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2.5em;
 }
 #contact i:hover {
 	color:#a0a0a0;
 }
 #bg-2 {
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%), url("images/bg-2.jpeg");
+	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-2.jpeg");
 }
 .xp-content {
 	overflow-x:scroll;
@@ -129,7 +129,7 @@ h1 {
 	padding-bottom: 10px;
 }
 #bg-3 {
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("images/bg-3.jpeg");
+	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-3.jpeg");
 }
 .pro-content {
 	overflow-x:scroll;
@@ -180,7 +180,7 @@ h1 {
     -webkit-transform: translate(-50%, -50%);
 }
 #bg-4 {
-	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("images/bg-4.jpeg");
+	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-4.jpeg");
 }
 #bg-4 h2 {
 	font-size:2.2vw;
