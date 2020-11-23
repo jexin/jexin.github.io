@@ -23,12 +23,7 @@ body a :hover, html a :hover{
 	padding:0;
 }
 #game {
-	height: 100%;
-}
-#instr {
-	width:100%;
-	text-align: center;
-	color:#8f8f8f;
+	min-height: 100%;
 }
 #bboard {
 	margin-bottom:28vh;
@@ -44,23 +39,28 @@ body a :hover, html a :hover{
 	  right: 0;
 	width:39%;
 }
+#instr {
+  width:100%;
+	text-align: center;
+	color:#8f8f8f;
+}
 #ball {
 	display: block;
     margin:0 auto;
 	width: 60%;
 }
 @media (max-width: 991.98px) {
-	#instr {
-		display:none;
-	}
-	#ball {
-		display:none;
-	}
+  #game {
+		min-height: auto;
+  }
 	#bboard {
-		margin-bottom:5%;
+		margin-bottom:5vw;
 	}
-	#game {
-		height: auto;
+  #instr {
+		display:none;
+  }
+  #control {
+		display:none;
 	}
 }
 #bg-1 {
@@ -69,22 +69,21 @@ body a :hover, html a :hover{
 .bio {
     color: black;
     background-color: white;
-	  padding: 2rem;
+	  padding: 30px;
     border-radius: 10px;
     text-align: center;
 }
 .bio p {
-  font-size: 18px;
     line-height: 1.75;
 }
 #contact i {
-	font-size:4.25em;
+	font-size:50px;
 	color:white;
-	margin:0 2.5%;
+	margin:0 20px;
 }
 #contact {
     text-align: center;
-    margin-top: 2.5em;
+    margin-top: 30px;
 }
 #contact i:hover {
 	color:#a0a0a0;
@@ -97,7 +96,7 @@ body a :hover, html a :hover{
 }
 .xp {
 	height:418px;
-	width:2920px; /* +365 */
+	width:2920px; 
 }
 .card {
 	position: relative;
@@ -113,19 +112,17 @@ body a :hover, html a :hover{
 }
 .col-8 {
 	color:black;
-	font-size: 21px;
+	font-size: 20px;
 	line-height: 15px;
-	padding: 0.3rem 0 0 0;
+	padding: 3.5px 0 0 0;
 }
 .details {
-	color:black;
-	font-size:16px;
+	font-size:14px;
 	line-height: 20px;
 }
 .card-body {
 	color:black;
 	padding-top: 0;
-	padding-bottom: 10px;
 }
 #bg-3 {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-3.jpeg");
@@ -149,13 +146,10 @@ body a :hover, html a :hover{
 	opacity:0.95;
 }
 .item img {
-	width:660px;
-	height: 350px;
+  width:100%;
+  height: 100%;
 }
-#app {
-	width: 162px;
-}
-#app img {
+.app {
 	width: 162px;
 }
 .infobox {
@@ -171,7 +165,7 @@ body a :hover, html a :hover{
 }
 .text {
 	color: #666666;
-  	font-size: 18px;
+  	font-size: 16px;
   	position: absolute;
   	top: 50%;
   	left: 50%;
@@ -181,18 +175,16 @@ body a :hover, html a :hover{
 #bg-4 {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-4.jpeg");
 }
-#bg-4 h2 {
-	font-size:2.2vw;
-}
 #chart {
-	margin:0 auto;
+  margin:0 auto;
 }
 #chart th {
-	padding-right: 3%;
+	padding-right: 20px;
 }
 #chart td {
-	padding: 1%;
+  padding: 10px;
+  vertical-align: top;
 }
 #chart img {
-	width:6vw;
+	width:5vw;
 }

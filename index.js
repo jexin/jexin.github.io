@@ -14,6 +14,18 @@ $(window).bind("load", function() {
 window.addEventListener("keyup", function (event) {
 	pressed = false;
 });
+document.getElementById("about").addEventListener("click", function(event) {
+  about();
+})
+document.getElementById("experience").addEventListener("click", function(event) {
+  experience();
+})
+document.getElementById("projects").addEventListener("click", function(event) {
+  projects();
+})
+document.getElementById("skills").addEventListener("click", function(event) {
+  skills();
+})
 
 function leftKey() {
 	if (parseInt(ball.style.left) > 0) {
@@ -89,31 +101,30 @@ function shootDown() {
   }
 }
 function about() {
-	document.getElementById("about").click();
+	document.getElementById("bg-1").scrollIntoView({ behavior: 'smooth' })
 }
 function experience() {
-	document.getElementById("experience").click();
+  document.getElementById("bg-2").scrollIntoView({ behavior: 'smooth' })
 }
 function projects() {
-	document.getElementById("projects").click();
+  document.getElementById("bg-3").scrollIntoView({ behavior: 'smooth' })
 }
 function skills() {
-	document.getElementById("skills").click();
+  document.getElementById("bg-4").scrollIntoView({ behavior: 'smooth' })
 }
 function moveSelection(event) {
 	if (!pressed) {
+    pressed = true;
 		switch (event.keyCode) {
 		    case 37:
-		    leftKey();
-		    pressed = true;
-		    break;
+          leftKey();
+          break;
 		    case 39:
-		    rightKey();
-		    pressed = true;
-		    break;
+          rightKey();
+          break;
 		    case 13:
-		    enterKey();
-		    break;
+          enterKey();
+          break;
 		}
 	}
 };
