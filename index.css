@@ -6,7 +6,12 @@ body, html {
   color:white;
   background-color:#fffaf5;
 }
-body a :hover, html a :hover{
+a {
+  color: inherit;
+}
+a:hover {
+  color: #f29d39;
+  text-decoration: inherit;
   cursor: url("cursors/link.png"), auto;
 }
 #bg-1, #bg-2, #bg-3, #bg-4 {
@@ -26,7 +31,7 @@ body a :hover, html a :hover{
 	min-height: 100%;
 }
 #bboard {
-	margin-bottom:28vh;
+	margin-bottom:25vh;
 }
 #bboard img {
 	width:100%;
@@ -42,7 +47,8 @@ body a :hover, html a :hover{
 #instr {
   width:100%;
 	text-align: center;
-	color:#8f8f8f;
+  color:#1a1b1e60;
+  margin-bottom: 5vh;
 }
 #ball {
 	display: block;
@@ -66,32 +72,26 @@ body a :hover, html a :hover{
 #bg-1 {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-1.jpeg");
 }
-.bio {
-    color: black;
-    background-color: white;
-	  padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-}
-.bio p {
-    line-height: 1.75;
-}
-#contact i {
-	font-size:50px;
-	color:white;
-	margin:0 20px;
+#bio {
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
 }
 #contact {
-    text-align: center;
-    margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
 }
-#contact i:hover {
-	color:#a0a0a0;
+#contact a {
+	font-size:50px;
+	margin:0 20px;
 }
 #bg-2 {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-2.jpeg");
 }
-.xp-content {
+.container {
 	overflow-x:scroll;
 }
 .xp {
@@ -114,7 +114,8 @@ body a :hover, html a :hover{
 	color:black;
 	font-size: 20px;
 	line-height: 15px;
-	padding: 3.5px 0 0 0;
+  padding: 3.5px 0 0 0;
+  margin: 0;
 }
 .details {
 	font-size:14px;
@@ -122,15 +123,11 @@ body a :hover, html a :hover{
 }
 .card-body {
 	color:black;
-	padding-top: 0;
 }
 #bg-3 {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-3.jpeg");
 }
-.pro-content {
-	overflow-x:scroll;
-}
-.pro {
+.projects {
 	height:350px;
 	width:2242px;
 }
@@ -161,16 +158,15 @@ body a :hover, html a :hover{
 	height:100%;
 	opacity: 0;
 	transition:.3s ease;
-	background-color: white;
+  background-color: white;
 }
 .text {
-	color: #666666;
-  	font-size: 16px;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+	color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 #bg-4 {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-4.jpeg");
@@ -179,6 +175,7 @@ body a :hover, html a :hover{
   margin:0 auto;
 }
 #chart th {
+  font-size: 22px;
 	padding-right: 20px;
 }
 #chart td {

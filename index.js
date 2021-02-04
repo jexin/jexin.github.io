@@ -11,19 +11,19 @@ $(window).bind("load", function() {
 	control.style.height = control.offsetHeight + 'px';
 });
 
-window.addEventListener("keyup", function (event) {
+window.addEventListener("keyup", () => {
 	pressed = false;
 });
-document.getElementById("about").addEventListener("click", function(event) {
+document.getElementById("about").addEventListener("click", () => {
   about();
 })
-document.getElementById("experience").addEventListener("click", function(event) {
+document.getElementById("experience").addEventListener("click", () => {
   experience();
 })
-document.getElementById("projects").addEventListener("click", function(event) {
+document.getElementById("projects").addEventListener("click", () => {
   projects();
 })
-document.getElementById("skills").addEventListener("click", function(event) {
+document.getElementById("skills").addEventListener("click", () => {
   skills();
 })
 
@@ -113,6 +113,8 @@ function skills() {
   document.getElementById("bg-4").scrollIntoView({ behavior: 'smooth' })
 }
 function moveSelection(event) {
+  document.getElementById("instr").style.visibility = "hidden";
+
 	if (!pressed) {
     pressed = true;
 		switch (event.keyCode) {
