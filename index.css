@@ -91,7 +91,7 @@ a:hover {
 #bg-2 {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-2.jpeg");
 }
-.container {
+.container-x {
 	overflow-x:scroll;
 }
 .xp {
