@@ -92,15 +92,15 @@ a:hover {
 	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-2.jpeg");
 }
 .container-x {
-	overflow-x:scroll;
+	display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow-x: auto;
 }
 .xp {
-	height:418px;
-	width:2920px; 
+  height:418px;
 }
 .card {
-	position: relative;
-	float:left;
 	margin-right: 10px;
 	width:355px;
 	height:418px;
@@ -129,12 +129,10 @@ a:hover {
 }
 .projects {
 	height:350px;
-	width:2242px;
 }
 .item {
-	position: relative;
-	float:left;
-	margin-right: 25px;
+  position:relative;
+	margin-right: 10px;
 	width:660px;
 	height: 350px;
 	text-align: center;
