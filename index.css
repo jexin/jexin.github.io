@@ -132,10 +132,10 @@ a:hover {
 	height:350px;
 }
 .item {
-  flex: 1;
   position:relative;
 	margin-right: 10px;
 	width:660px;
+  height: 100%;
 	text-align: center;
 }
 .item a:hover .infobox {
