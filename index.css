@@ -78,7 +78,7 @@ a:hover {
   color: black;
   background-color: white;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 #contact {
   text-align: center;
@@ -107,11 +107,13 @@ i {
   flex: 1;
 	margin-right: 10px;
 	width:355px;
+  border-radius: 1rem;
 }
 #bg-2 img {
 	padding-top: 3px;
 	height:100px;
 	width:100px;
+  border-radius:50%;
 }
 .col-8 {
 	color:black;
@@ -135,7 +137,7 @@ i {
 }
 .item {
   position:relative;
-	margin-right: 10px;
+	margin-right: 15px;
 	width:660px;
   height: 100%;
 	text-align: center;
@@ -146,6 +148,8 @@ i {
 .item img {
   width:100%;
   height: 100%;
+  margin-right: 15px;
+  border-radius: 1rem;
 }
 .app {
 	width: 162px;
@@ -160,6 +164,7 @@ i {
 	opacity: 0;
 	transition:.3s ease;
   background-color: white;
+  border-radius: 1rem;
 }
 .text {
 	color: black;
