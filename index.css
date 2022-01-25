@@ -14,6 +14,13 @@ a:hover {
   text-decoration: inherit;
   cursor: url("cursors/link.png"), auto;
 }
+::-webkit-scrollbar {
+  border-radius: 1rem; 
+}
+::-webkit-scrollbar-thumb {
+  background: #f29d39;
+  border-radius: 1rem;
+}
 #bg-1, #bg-2, #bg-3, #bg-4 {
 	background-position: center;
 	background-repeat: no-repeat;
@@ -86,7 +93,7 @@ a:hover {
 #contact a {
   outline:none;  
 	font-size:50px;
-	margin:0 20px;
+	margin:0 2%;
 }
 i {
   vertical-align: bottom;
@@ -99,21 +106,22 @@ i {
   flex-wrap: wrap;
   flex-direction: column;
   overflow-x: auto;
+  padding: 0;
+  gap: 1%;
 }
 .xp {
   height:418px;
 }
 .card {
   flex: 1;
-	margin-right: 10px;
 	width:355px;
   border-radius: 1rem;
 }
+#bg-2 .row {
+  margin: 0;
+}
 #bg-2 img {
-	padding-top: 3px;
-	height:100px;
-	width:100px;
-  border-radius:50%;
+  object-fit: contain;
 }
 .col-8 {
 	color:black;
@@ -137,7 +145,6 @@ i {
 }
 .item {
   position:relative;
-	margin-right: 15px;
 	width:660px;
   height: 100%;
 	text-align: center;
@@ -148,7 +155,6 @@ i {
 .item img {
   width:100%;
   height: 100%;
-  margin-right: 15px;
   border-radius: 1rem;
 }
 .app {
