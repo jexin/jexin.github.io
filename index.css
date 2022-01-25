@@ -106,8 +106,7 @@ i {
   flex-wrap: wrap;
   flex-direction: column;
   overflow-x: auto;
-  padding: 0;
-  gap: 1%;
+  gap: 12px;
 }
 .xp {
   height:418px;
@@ -117,10 +116,8 @@ i {
 	width:360px;
   border-radius: 1rem;
 }
-#bg-2 .row {
-  margin: 0;
-}
 #bg-2 img {
+  border-top-left-radius: 50%;
   object-fit: contain;
 }
 .col-8 {
