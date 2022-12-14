@@ -119,12 +119,13 @@ i {
 #bg-2 img {
   border-top-left-radius: 50%;
   object-fit: contain;
+  padding: 10px;
 }
 .col-8 {
 	color:black;
 	font-size: 20px;
 	line-height: 15px;
-  padding: 3.5px 0 0 0;
+  padding-top: 5px;
   margin: 0;
 }
 .details {
@@ -146,7 +147,7 @@ i {
   height: 100%;
 	text-align: center;
 }
-.item a:hover .infobox {
+.item:hover .infobox {
 	opacity:0.95;
 }
 .item img {
