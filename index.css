@@ -3,7 +3,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'Balsamiq Sans', serif;
-  color:white;
+  color:#2f2f2f;
   background-color:#fffaf5;
 }
 a {
@@ -38,7 +38,7 @@ a:hover {
 	min-height: 100%;
 }
 #bboard {
-	margin-bottom:25vh;
+	margin-bottom:15vw;
 }
 #bboard img {
 	width:100%;
@@ -59,7 +59,7 @@ a:hover {
 }
 #ball {
 	display: block;
-    margin:0 auto;
+  margin:0 auto;
 	width: 60%;
 }
 @media (max-width: 991.98px) {
@@ -76,14 +76,7 @@ a:hover {
 		display:none;
 	}
 }
-#bg-1 {
-	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-1.jpeg");
-}
 #bio {
-  display: flex;
-  flex-wrap: wrap;
-  color: black;
-  background-color: white;
   padding: 30px;
   border-radius: 1rem;
 }
@@ -97,9 +90,6 @@ a:hover {
 }
 i {
   vertical-align: bottom;
-}
-#bg-2 {
-	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-2.jpeg");
 }
 .container-x {
 	display: flex;
@@ -122,7 +112,6 @@ i {
   padding: 10px;
 }
 .col-8 {
-	color:black;
 	font-size: 20px;
 	line-height: 15px;
   padding-top: 5px;
@@ -131,12 +120,6 @@ i {
 .details {
 	font-size:14px;
 	line-height: 20px;
-}
-.card-body {
-	color:black;
-}
-#bg-3 {
-	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-3.jpeg");
 }
 .projects {
 	height:350px;
@@ -167,19 +150,15 @@ i {
 	height:100%;
 	opacity: 0;
 	transition:.3s ease;
-  background-color: white;
+  background-color: #fffaf5;
   border-radius: 1rem;
 }
 .text {
-	color: black;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-}
-#bg-4 {
-	background-image: linear-gradient(rgba(5,10,15,0.5),rgba(5,10,15,0.5)), url("images/bg-4.jpeg");
 }
 #chart {
   margin:0 auto;
@@ -193,5 +172,5 @@ i {
   vertical-align: top;
 }
 #chart img {
-	width:5vw;
+	width:6.5vw;
 }

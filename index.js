@@ -75,7 +75,7 @@ function shootUp() {
     } else {
       pos-=8;
       ball.style.top = pos + 'px';
-      ratio-=0.3;
+      ratio-=0.2;
 	  ball.style.width = ratio + '%';
 	  ball.style.height = 'auto';
     }
