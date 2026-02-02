@@ -3,8 +3,8 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  color:#2f2f2f;
-  background-color:#fffaf5;
+  color: #2f2f2f;
+  background-color: #fffaf5;
 }
 a {
   color: inherit;
@@ -33,34 +33,34 @@ li {
   background-size: 20px;
 }
 #bg-1, #bg-2, #bg-3, #bg-4 {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	padding-bottom:50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
 }
 #bg-1 h2, #bg-2 h2, #bg-3 h2, #bg-4 h2 {
-	padding: 25px 0 15px 0;
-	text-align: center;
+  padding: 25px 0 15px 0;
+  text-align: center;
 }
 .col-3 {
-	padding:0;
+  padding: 0;
 }
 #game {
-	min-height: 100%;
+  min-height: 100%;
 }
 #bboard {
-	margin-bottom:15vw;
+  margin-bottom: 15vw;
 }
 #bboard img {
-	width:100%;
+  width: 100%;
 }
 .hoop {
-	position:absolute;
-	  top: 69%;
-	  bottom: 0;
-	  left: 30%;
-	  right: 0;
-	width:39%;
+  position: absolute;
+  top: 69%;
+  bottom: 0;
+  left: 30%;
+  right: 0;
+  width: 39%;
 }
 #instr {
   width:100%;
@@ -68,53 +68,53 @@ li {
   margin-bottom: 5vh;
 }
 #ball {
-	display: block;
-  margin:0 auto;
-	width: 60%;
+  display: block;
+  margin: 0 auto;
+  width: 60%;
 }
 @media (max-width: 991.98px) {
   #game {
-		min-height: auto;
+    min-height: auto;
   }
-	#bboard {
-		margin-bottom: 5vw;
-	}
+  #bboard {
+    margin-bottom: 5vw;
+  }
   #instr {
-		display: none;
+    display: none;
   }
   #control {
-		display: none;
-	}
+    display: none;
+  }
 }.text-blob {
   padding: 15px;
 }
 #contact a {
-  outline:none;  
-	font-size:50px;
-	margin:0 2%;
+  outline: none;
+  font-size: 50px;
+  margin: 0 2%;
 }
 i {
   vertical-align: bottom;
 }
 .container-x {
-	display: flex;
+  display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   overflow-x: auto;
   gap: 12px;
 }
 .xp {
-  height:418px;
+  height: 418px;
 }
 .card {
   flex: 1;
-	width:360px;
+  width: 360px;
   border-radius: 1rem;
 }
 .card a {
   text-decoration: underline;
   text-decoration-color: #f29d39;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 1px;
   text-decoration-skip-ink: none;
 }
 #bg-2 img {
@@ -123,41 +123,41 @@ i {
   padding: 10px;
 }
 .col-8 {
-	font-size: 20px;
-	line-height: 15px;
+  font-size: 20px;
+  line-height: 15px;
   padding-top: 5px;
   margin: 0;
 }
 .details {
-	font-size:14px;
-	line-height: 20px;
+  font-size: 14px;
+  line-height: 20px;
 }
 .projects {
-	height:350px;
+  height: 350px;
 }
 .item {
   position: relative;
-	width: 660px;
+  width: 660px;
   height: 100%;
-	text-align: center;
+  text-align: center;
 }
 .item:hover .infobox {
 	opacity: 0.95;
 }
 .item img {
-  width:100%;
+  width: 100%;
   height: 100%;
   border-radius: 1rem;
 }
 .infobox {
-	position:absolute;
-	  top: 0;
-	  bottom: 0;
-	  left: 0;
-	  right: 0;
-	height:100%;
-	opacity: 0;
-	transition:.3s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0;
+  transition: .3s ease;
   background-color: #fffaf5;
   border-radius: 1rem;
 }

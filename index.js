@@ -42,22 +42,22 @@ function enterKey() {
 		shootUp();
 		setTimeout(function() {
 			about();
-	     }, 1350);
+	     }, 1650);
 	} else if (parseInt(ball.style.left) === unit.offsetWidth) {
 		shootUp();
 		setTimeout(function() {
 			experience();
-	     }, 1350);
+	     }, 1650);
 	} else if (parseInt(ball.style.left) === unit.offsetWidth*2) {
 		shootUp();
 		setTimeout(function() {
 			projects();
-	     }, 1350);
+	     }, 1650);
 	} else {
 		shootUp();
 		setTimeout(function() {
 			skills();
-	     }, 1350);
+	     }, 1650);
 	}
 };
 function shootUp() {

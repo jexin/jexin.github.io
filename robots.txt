@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /cursors/
+
+Sitemap: https://www.jennyxin.com/sitemap.xml
